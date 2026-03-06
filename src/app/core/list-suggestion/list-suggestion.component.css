@@ -1,0 +1,75 @@
+:host {
+	display: block;
+	padding: 12px;
+}
+.search-bar {
+	margin-bottom: 16px;
+}
+.search-bar input {
+	width: 100%;
+	padding: 10px 12px;
+	font-size: 14px;
+	border: 1px solid #e0e0e0;
+	border-radius: 6px;
+}
+.suggestion-card {
+	background: #fff;
+	border-radius: 8px;
+	box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+	margin-bottom: 14px;
+}
+.card-body { padding: 18px; }
+.meta {
+	color: #6b7a86;
+	font-size: 13px;
+	margin-bottom: 8px;
+}
+.actions {
+	display: flex;
+	gap: 8px;
+	align-items: center;
+}
+.btn-like {
+	background: #007bff;
+	color: #fff;
+	border: 0;
+	padding: 8px 12px;
+	border-radius: 6px;
+	cursor: pointer;
+}
+.btn-fav {
+	background: #fff;
+	color: #333;
+	border: 1px solid #d0d7de;
+	padding: 8px 12px;
+	border-radius: 6px;
+	cursor: pointer;
+}
+.btn-like:hover { opacity: 0.95 }
+.btn-fav:hover { background: #f8f9fb }
+
+.likes { margin-right: 8px; }
+.favorites {
+	margin-top: 18px;
+	border-top: 1px dashed #e6e6e6;
+	padding-top: 12px;
+}
+
+.page-title {
+	text-align: center;
+	font-size: 24px;
+	margin-bottom: 12px;
+}
+
+.title { margin: 0 0 6px 0; font-size: 18px; }
+.description { color: #394a53; margin-bottom: 12px; }
+.category { color: #0b69ff; font-weight: 600; text-decoration: none; margin-right: 6px }
+.dot { color: #9aa7b0; margin: 0 6px }
+.date { color: #9aa7b0 }
+
+.badge { display:inline-block; padding:6px 10px; border-radius: 16px; font-size:12px; margin-right:12px }
+.badge.accepted { background:#e6f6ea; color:#1a7f37 }
+.badge.refused { background:#fdecea; color:#b02a37 }
+.badge.pending { background:#f3f4f6; color:#556064 }
+
+.status-and-actions { display:flex; align-items:center; justify-content:space-between }
