@@ -20,6 +20,7 @@
 					<div class="actions">
 						<button class="btn-like" *ngIf="suggestion.status !== 'refusee'" (click)="like(suggestion)">👍 Like {{ suggestion.nbLikes }}</button>
 						<button class="btn-fav" *ngIf="suggestion.status !== 'refusee'" (click)="addToFavorites(suggestion)">♡ Ajouter aux favoris</button>
+						<a class="btn-details" [routerLink]="['/details', suggestion.id]">Voir les détails</a>
 					</div>
 				</div>
 			</div>
